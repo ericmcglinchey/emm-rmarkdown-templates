@@ -1,0 +1,42 @@
+---
+title: Main Title Here
+subtitle: GOVT 133
+date: March 8, 2019
+fontsize: 12pt
+output:
+ beamer_presentation:
+  # keep_tex: true
+  toc: true
+  slide_level: 2
+  includes:
+   in_header: ~/EMM_GMU_slides.tex
+---
+
+# Section 1
+# Section 2
+# Section 3
+
+## Slide 1
+
+Bullets
+
+\ 
+
+- point 1
+  - \color{red}{subpoint 1}
+  - \color{black}subpoint 2
+
+\ 
+
+- point 2
+
+## Question 1
+
+What is the answer to this question? 
+
+\ 
+
+a. answer a
+b. answer b
+c. answer c 
+
