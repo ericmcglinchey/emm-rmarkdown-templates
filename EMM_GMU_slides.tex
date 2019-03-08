@@ -1,0 +1,76 @@
+% ----------------------------
+% Eric McGlinchey GMU Lecture Slides Template
+%
+% Build based on Steven Miller's https://rmarkdown.rstudio.com/articles_beamer.html
+% 
+% Incorporates tweaks from Robert McGrath, http://mcgrath.gmu.edu/ 
+% ----------------------------
+
+\usepackage{graphicx}
+\usepackage{rotating}
+\usefonttheme{serif}
+%\setbeamertemplate{caption}[numbered]
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[normalem]{ulem}
+%\mode<presentation>
+\usepackage{wasysym}
+\usepackage{amsmath}
+
+\setbeamertemplate{navigation symbols}{}
+\author{Eric McGlinchey}
+\titlegraphic{\includegraphics[width=0.5\paperwidth]{\string~/schar.png}}
+\setbeamertemplate{title page}[empty]
+
+\setbeamerfont{subtitle}{size=\small}
+
+\setbeamercovered{transparent}
+
+\definecolor{masongreen}{HTML}{006633}
+\definecolor{masongold}{HTML}{FFCC33}
+
+\setbeamercolor{frametitle}{fg=black,bg=white}
+\setbeamercolor{title}{fg=black,bg=white}
+\setbeamercolor{local structure}{fg=black}
+\setbeamercolor{section in toc}{fg=black,bg=white}
+% \setbeamercolor{subsection in toc}{fg=black,bg=white}
+\setbeamercolor{item projected}{fg=black,bg=white}
+\setbeamertemplate{itemize item}{\color{black}$\bullet$}
+\setbeamertemplate{itemize subitem}{\color{black}\scriptsize{$\bullet$}}
+\let\Tiny=\tiny
+
+\AtBeginPart{}
+\AtBeginSection{}
+\AtBeginSubsection{}
+\AtBeginSubsubsection{}
+\setlength{\emergencystretch}{0em}
+\setlength{\parskip}{0pt}
+
+% Fix caption 
+
+\setlength{\abovecaptionskip}{2pt plus 5pt minus 5pt}
+
+
+% Two-tone footlines... adjust colors as needed
+
+\defbeamertemplate*{footline}{my footline}{%
+    \ifnum\insertpagenumber=1
+    \hbox{%
+        \begin{beamercolorbox}[wd=\paperwidth,ht=.8ex,dp=1ex,center]{}%
+      % empty environment to raise height
+        \end{beamercolorbox}%
+    }%
+    \vskip0pt%
+
+    \else%
+        \Tiny{%
+            \hfill%
+		\vspace*{-1pt}%
+        \raisebox{.2cm}[0cm][0cm]{ % lift page number up 
+            \insertframenumber/\inserttotalframenumber \hspace*{.1cm}}%
+            \newline%
+            \color{masongold}{\rule{\paperwidth}{.8mm}}\newline%
+            \color{masongreen}{\rule{\paperwidth}{.8mm}}%
+        }%
+    \fi%
+}
