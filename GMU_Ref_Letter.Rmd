@@ -1,0 +1,49 @@
+---
+title: "2021 Comp. Authoritarianism Midterm Feedback"
+author: "Eric McGlincey"
+output:
+  pagedown::html_letter:
+    css:
+      - default-fonts
+      - GMU_Letter.css
+      - default
+    self_contained: true
+links-to-footnotes: true
+paged-footnotes: true
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+![The Schar logo](https://raw.githubusercontent.com/ericmcglinchey/templates/master/schar.png){.logo}
+
+::: from
+Eric McGlinchey   
+Schar School    
+George Mason University   
+Email: emcglinc@gmu.edu    
+:::
+
+
+Department of Political Science   
+Iowa State University   
+
+::: date
+March 13, 2021    
+:::
+
+Dear Selection Commitee,
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus ornare suspendisse sed nisi lacus. Placerat in egestas erat imperdiet sed euismod nisi porta. Augue eget arcu dictum varius duis at consectetur lorem. Nunc sed id semper risus in hendrerit gravida rutrum. Parturient montes nascetur ridiculus mus mauris. Faucibus turpis in eu mi bibendum neque egestas. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Semper auctor neque vitae tempus quam. Nibh tellus molestie nunc non blandit. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Pellentesque habitant morbi tristique senectus et netus. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Quis enim lobortis scelerisque fermentum dui faucibus in ornare. Tellus id interdum velit laoreet id donec ultrices. Dolor morbi non arcu risus quis varius quam. Molestie nunc non blandit massa enim nec dui.
+
+Purus semper eget duis at tellus at urna condimentum mattis. Cursus eget nunc scelerisque viverra mauris. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Elit eget gravida cum sociis. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Mi tempus imperdiet nulla malesuada. Neque gravida in fermentum et sollicitudin ac orci phasellus. Consequat semper viverra nam libero justo laoreet. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Etiam sit amet nisl purus. Arcu vitae elementum curabitur vitae.
+
+Ut pharetra sit amet aliquam id diam. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Semper quis lectus nulla at volutpat. Sed felis eget velit aliquet sagittis id consectetur purus ut. Est ante in nibh mauris cursus mattis. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Et ultrices neque ornare aenean euismod elementum nisi. Egestas sed tempus urna et. Malesuada nunc vel risus commodo viverra maecenas accumsan. Scelerisque fermentum dui faucibus in ornare quam. Fusce ut placerat orci nulla pellentesque dignissim enim.
+
+Please do not hesitate to contact me should you have any questions about...
+
+![Signature](RuSig.png){width=6cm}  
+Eric McGlinchey   
+Schar School    
+
+
+
